@@ -1,0 +1,98 @@
+
+MessageBox: Kullanıcıya iletişim kutuları göstermek için kullanılır.
+
+CreateWindow / CreateWindowEx: Yeni bir pencere oluşturmak için kullanılır.
+
+RegisterClass / RegisterClassEx: Özel pencere sınıflarını kaydetmek için kullanılır.
+
+GetMessage / PeekMessage: Windows mesajlarını almak veya kontrol etmek için kullanılır.
+
+CreateFile: Dosya oluşturmak, açmak veya erişmek için kullanılır.
+
+ReadFile / WriteFile: Dosyadan okuma ve dosyaya yazma işlemleri için kullanılır.
+
+CloseHandle: Dosya veya kaynak kapatmak için kullanılır.
+
+Sleep: Belirli bir süre boyunca işlemi duraklatmak için kullanılır.
+
+GetWindowText / SetWindowText: Bir pencerenin metin içeriğini almak veya ayarlamak için kullanılır.
+
+ShowWindow / UpdateWindow: Bir pencereyi göstermek veya güncellemek için kullanılır.
+
+MoveWindow: Bir pencerenin konumunu ve boyutunu değiştirmek için kullanılır.
+
+SendMessage / PostMessage: Bir pencereye mesaj göndermek için kullanılır.
+
+GetLastError: Son hata kodunu almak için kullanılır.
+
+SetTimer / KillTimer: Zamanlayıcı oluşturmak veya silmek için kullanılır.
+
+GetModuleHandle: Bir modül kolu almak için kullanılır.
+
+GetSystemMetrics: Sistem ölçütlerini almak için kullanılır. Örneğin, ekran genişliği veya yüksekliği gibi bilgiler alınabilir.
+
+GetCursorPos: Fare imlecinin ekran üzerindeki konumunu almak için kullanılır.
+
+SetCursorPos: Fare imlecinin ekran üzerindeki konumunu ayarlamak için kullanılır.
+
+GetForegroundWindow: Aktif pencereyi almak için kullanılır.
+
+GetWindowTextLength: Bir pencerenin metin uzunluğunu almak için kullanılır.
+
+GetWindowText: Bir pencerenin metnini almak için kullanılır.
+
+EnumWindows: Sistemdeki tüm pencereleri numaralandırmak için kullanılır.
+
+GetModuleFileName: Bir modülün dosya adını almak için kullanılır.
+
+GetModuleHandle: Bir modül kolu almak için kullanılır.
+
+GetLastError: Son hata kodunu almak için kullanılır.
+
+GlobalAlloc / GlobalFree: Global bellek tahsisi ve serbest bırakma işlemleri için kullanılır.
+
+LoadLibrary / FreeLibrary: Bir DLL'yi yüklemek veya serbest bırakmak için kullanılır.
+
+FindWindow: Belirli bir pencere sınıfının veya adının adını aramak için kullanılır.
+
+PostMessage / SendMessage: Bir pencereye mesaj göndermek için kullanılır.
+
+ShellExecute: Bir dosyayı veya uygulamayı başlatmak için kullanılır.
+
+GetTickCount: Sistem başlangıcından bu yana geçen milisaniye cinsinden süreyi almak için kullanılır.
+
+GetVersion: Sistem sürüm bilgisini almak için kullanılır.
+
+GetComputerName: Bilgisayarın adını almak için kullanılır.
+
+GetUserName: Kullanıcının adını almak için kullanılır.
+
+GetTempPath: Geçici dosya dizinini almak için kullanılır.
+
+GetTempFileName: Geçici bir dosya adı oluşturmak için kullanılır.
+
+GetDriveType: Bir disk sürücüsünün türünü almak için kullanılır (örneğin, sabit disk, CD-ROM, USB sürücü).
+
+GetDiskFreeSpace: Bir disk sürücüsünün boş alanını almak için kullanılır.
+
+GetLogicalDrives: Mevcut mantıksal sürücü harflerini almak için kullanılır.
+
+GetSystemDirectory: Sistem dizinini almak için kullanılır (örneğin, C:\Windows\System32).
+
+GetWindowsDirectory: Windows dizinini almak için kullanılır.
+
+GetSystemTime: Sistem saati bilgisini almak için kullanılır.
+
+GetLocalTime: Yerel saat bilgisini almak için kullanılır.
+
+GetSystemInfo: Sistem bilgisini almak için kullanılır (örneğin, işlemci mimarisi, bellek durumu).
+
+GetVersionEx: Detaylı sistem sürüm bilgisini almak için kullanılır.
+
+Wininet.h: İnternet Explorer ve diğer uygulamalar tarafından kullanılan internet protokolü işlevlerini sağlar. İnternet tarayıcısı işlevselliği, sunucu istekleri, dosya indirme ve yükleme gibi işlemleri gerçekleştirmek için kullanılır.
+
+Shlwapi.h: Windows hafif araçlar kitaplığı, hızlı ve hafif işlevler sağlar. Dosya işlemleri, yol işlemleri, dize işlemleri ve diğer birçok yardımcı işlevi içerir.
+
+Shlobj.h: Shell Nesne Kitaplığı, Windows kabuğu (Shell) bileşenleri ve işlevleriyle etkileşim kurmak için kullanılır. Özellikle, özel klasör yollarını almak, masaüstü simgeleriyle etkileşim kurmak, dosya açma/yazma iletişimi sağlamak gibi görevlerde kullanılır.
+
+Winsock2.h: Windows Soket API'si, ağ iletişimi sağlamak için kullanılır. TCP/IP protokol yığınına erişim sağlar ve ağ üzerinden veri iletimi için soket programlaması yapmak için kullanılır. İstemci-sunucu iletişimi, ağ protokollerini uygulama ve ağ üzerinden veri alışverişi gibi işlevler için kullanılır.
